@@ -8,13 +8,14 @@ html {
     font-size: 62.5%;
 }
 
-h1{
+p{
     margin-top: 3rem;
     color: #fff;
     text-align: center;
     letter-spacing: .2rem;
     color: rgb(250, 38, 38);
     font-size: 3rem;
+    font-weight: bold;
 }
 
 /* main css  */
@@ -228,3 +229,27 @@ h1{
 }
 
 /* end of main css  */
+
+
+/* responsive css  */
+
+@media(max-width : 580px){
+    .form input{
+        width: 16rem;
+    }
+
+    .form-container{
+        width: 75%;
+        left: 15%;
+    }
+    .form-btn{
+        width: 155px;
+        height: 35px;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+
+}
+
+/* responsive css  */
