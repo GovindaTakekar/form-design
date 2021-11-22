@@ -1,7 +1,7 @@
 const btn = document.querySelector(".form-btn");
 let emailValue = document.getElementById("userMail");
 let passwordValue = document.getElementById("passw");
-let errorDialogue = document.createElement("h1");
+let errorDialogue = document.createElement("p");
 
 
 btn.addEventListener("click" , (event)=>{
